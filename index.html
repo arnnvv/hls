@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>HLS Live Stream Viewer</title>
+  <link rel="icon" href="data:;base64,iVBORw0KGgo="> <!-- Basic favicon to prevent 404 -->
+</head>
+<body>
+  <div id="app">
+    <h1>HLS Live Stream Viewer</h1>
+    <video id="hlsPlayer" controls autoplay muted width="800" height="450">
+      Your browser does not support the video tag.
+    </video>
+    <p id="status">Initializing...</p>
+  </div>
+  <script type="module" src="/main.ts"></script>
+</body>
+</html>
